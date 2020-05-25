@@ -20,6 +20,6 @@ from Webpage1 import views
 
 urlpatterns = [
     #path('',views.index,name='views'),
-    path('Home/',include('Webpage1.urls')),
+    path('',include('Webpage1.urls')),
     path('admin/', admin.site.urls),
 ]
